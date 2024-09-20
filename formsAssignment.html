@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+</head>
+<body>
+    <form>
+        <!--camelcase-->
+        <h3>GEE-FLASH Software Engineers Survey</h3>
+        <h5>GEE-FLASH Software Engineers Survey</h5>
+        <p>The below survey is designed to identify the experience & skill sets of all GEE-FLASH Software Engineers.</p>
+    <div>
+        <p>You are advised to please provide your honest feedback to GEE-FLASH for easy processing.
+            False or Inconsistent feedback will be immediately rejected.
+        </p>
+    </div>
+    <div>
+        <label>
+        <input type="radio" name="gender" value="male" required>Male
+        </label>
+        <label>
+        <input type="radio" name="gender" value="female" required>Female
+        </label>
+    </div>
+    <div>
+        <label for="firstname">1. First Name</label>
+        <input type="text" name="firstname" placeholder="Enter your Firstname" required>
+    </div>
+    <div>
+        <label for="lastname">2. Last Name</label>
+        <input type="text" name="lastname" placeholder="Enter your Lastname" required>
+    </div>
+    <div>
+        <label for="number">3. Phone Number (your Whatsapp number)</label>
+        <input type="number" name="number" placeholder="+2348000000000">
+    </div>
+    <div>
+        <label for="email">4. Email Address</label>
+        <input type="email" name="email" placeholder="Enter a valid Email Address">
+    </div>
+    <div>
+        <label for="password">5. Password</label>
+        <input type="password" name="password" placeholder="input password">
+    </div>
+    <div>
+        <label for="date">6. Date</label>
+        <input type="date" name="date" placeholder="date">
+    </div>
+    <div>
+        <label for="lga">7. What is your LGA?</label>
+        <input type="text" name="lga" placeholder="Local Government Area">
+    </div>
+    <div>
+        <label for="number">8. How many years of experience in software engineering? Ex {23, 40, 55}</label>
+        <input type="number" name="number">
+    </div>
+    <div>
+        <label for="number">9. What's your age? EX {23, 40, 55}</label>
+        <input type="number" name="number">
+    </div>
+    <label>10. I am VERY experienced in the following skill sets (please select all that apply): 
+        Primary Programming Languages;</label>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="java">Java
+        </label>
+    </div>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="python">Python
+        </label>
+    </div>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="c#">C#
+        </label>
+    </div>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="javascript">JavaScript
+        </label>
+    </div>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="c++">C++
+        </label>
+    </div>
+    <div>
+        <label>
+        <input type="checkbox" name="interest" value="html-css">HTML/CSS
+        </label>
+    </div>
+    <div>
+        <label type="message">11. If you have other skill sets that are NOT mentioned above; 
+            kindly name below:
+            <textarea name="message" cols="20" rows="5"></textarea>
+        </label>
+    </div>
+    <div>
+        <label for="file">File</label>
+        <input type="file" name="file" placeholder="file" multiple>
+    </div>
+    <div>
+        <label for="file">Upload Certifications</label>
+        <input type="file" name="file" placeholder="file" multiple>
+    </div>
+    <div>
+        <label for="state">State</label>
+        <select>
+            <option value="">--Select your State</option>
+            <option value="lagos">Lagos</option>
+            <option value="ogun">Ogun</option>
+            <option value="osun">Osun</option>
+            <option value="edo">Edo</option>
+            <option value="abia">Abia</option>
+        </select>
+    </div>
+    <div>
+        <input type="text" name="user-id" readonly value="4040">
+    </div>
+    <div>
+        <label for="range">Rating</label>
+        <input type="range" name="point" max="100" min="0">
+    </div>
+    <div>
+        <input type="Submit" value="Submit">
+    </div>
+    </form>
+</body>
+</html>
